@@ -14,3 +14,17 @@ VALUES
 UPDATE student 
 SET age = 20 
 WHERE id = 2;
+
+INSERT INTO student (name, age, gender) 
+VALUES 
+    ('Emma Watson', 25, 'Female'),
+    ('Daniel Radcliffe', 26, 'Male'),
+    ('Rupert Grint', 24, 'Male');
+
+INSERT INTO student (name, age, gender) 
+VALUES 
+    ('Emma Watson', 25, 'Female'),
+    ('Daniel Radcliffe', 26, 'Male'),
+    ('Rupert Grint', 24, 'Male'); 
+    
+    SELECT * FROM student;  
